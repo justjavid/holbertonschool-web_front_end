@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body , a{
+    color: #161616
+  }
+
+.visually-hidden {
+    display: none;
+}
+
+.section-tagline, .visually-hidden{
+    color: #D73953
+}
