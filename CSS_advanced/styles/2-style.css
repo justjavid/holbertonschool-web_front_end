@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
   }
 
-body , a{
+body ,a{
     color: #161616
   }
 
@@ -10,6 +10,6 @@ body , a{
     display: none;
 }
 
-.section-tagline, .visually-hidden{
+.section-tagline, .card-category{
     color: #D73953
 }
