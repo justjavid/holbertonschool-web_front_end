@@ -19,11 +19,11 @@
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
-  --text-color: var(--color-black);
+  --text-color: var(--color-white);
   --section-header-align: center;
   --section-tagline-transform: uppercase;
   --section-title-margin: 0;
-  --section-title-color: var(--color-black);
+  --section-title-color: var(--color-white);
   --section-padding: 5rem 0;
   --section-header-padding: 0 0 3rem;
   --section-body-padding: 0 0 3rem;
@@ -205,4 +205,37 @@ ul.footer {
   padding: var(--footer-padding);
 }
 
+.footer-address {
+  color: var(--text-color);
+}
+
+.social-link {
+  display: block; 
+}
+
+.social-link > svg {
+  fill: var(--text-color);
+}
+
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);          
+  --section-title-color: var(--color-white); 
+  background-color: var(--color-black);   
+}
+
+.card-services .card-title {
+  margin: 0;
+}
+
+.card-services a{
+  display: block;
+  padding: 2rem;
+  background-color: var(--color-light-grey);
+}
+
+.card-services a:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  text-decoration: none;
+}
 
